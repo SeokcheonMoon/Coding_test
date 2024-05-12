@@ -1,0 +1,5 @@
+str_text = input()
+str_index = input()
+index = int(str_index)
+list_text = list(str_text)
+print(list_text[index-1])
