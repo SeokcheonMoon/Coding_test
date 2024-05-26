@@ -1,7 +1,7 @@
-s = "Zbcdefg"
+n=118372
 
-list_s = list(s)
-list_s.sort(reverse = True)
-answer = "".join(list_s)
-
+number = str(n)
+list_number = list(number)
+list_number.sort(reverse=True)
+answer = int("".join(list_number))
 print(answer)
