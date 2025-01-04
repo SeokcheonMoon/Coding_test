@@ -1,6 +1,9 @@
-t = 10203
-p = 15
-result = 3
+# 입력 받는 법
 
-for x in range(len(t)):
-    t[x]
+# 1
+
+input()
+
+# 2 -> 더 빠르게 값을 받을 수 있음.
+import sys
+sys.stdin.readline()
